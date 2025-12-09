@@ -1,5 +1,14 @@
 use('Hospital');
 
+// Insert sample admins
+db.Admin.insertMany([
+  {
+    username: "sarah",
+    password: "admin123",
+    email: "sarah.johnson@hospital.com",
+  },
+]);
+
 // Insert sample patients
 db.Patient.insertMany([
   {
@@ -59,7 +68,7 @@ db.Patient.updateOne(
 );
 
 // Delete a patient
-// db.Patient.deleteOne({ name: "Bob Johnson" });
+db.Patient.deleteOne({ name: "Bob Johnson" });
 
 // Count total patients
 db.Patient.countDocuments();

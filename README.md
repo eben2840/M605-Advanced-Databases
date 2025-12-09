@@ -13,12 +13,19 @@ A MongoDB database project for managing hospital operations including customer o
 // Customer Collection
 {
   _id: ObjectId,
+    name: "Lily Johnqon",
+    age: 58,
+    gender: "Male",
+    bloodType: "B-",
+    phoneNumber: 5551234567,
+    address: "789 Pine Rd",
+    diagnosis: "Diabetes",
+    assignedDoctor: "Dr. Williams",
+    roomNumber: "103",
+    admissionDate: "2024-01-14",
+    status: "Discharged"
   // customer fields
 }
-
-
-
-## How to Run
 
 ### Prerequisites
 - MongoDB 8.2.2 or higher

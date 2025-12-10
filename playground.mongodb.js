@@ -1,13 +1,13 @@
 use('Hospital');
 
-// Insert sample admins
-db.Admin.insertMany([
-  {
-    username: "sarah",
-    password: "admin123",
-    email: "sarah.johnson@hospital.com",
-  },
-]);
+// // Insert sample admins
+// db.Admin.insertMany([
+//   {
+//     username: "sarah",
+//     password: "admin123",
+//     email: "sarah.johnson@hospital.com",
+//   },
+// ]);
 
 // Insert sample patients
 db.Patient.insertMany([
